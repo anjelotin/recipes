@@ -1,0 +1,11 @@
+-- CREATE TABLE recipes (
+--     id SERIAL PRIMARY KEY,
+--     title VARCHAR(255),
+--     description TEXT,
+--     ingredients TEXT,
+--     steps TEXT,
+--     category VARCHAR(100),
+--     image_url VARCHAR(255),
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
+
