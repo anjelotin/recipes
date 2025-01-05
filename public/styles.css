@@ -110,10 +110,19 @@
 .step-number {
     background-color: var(--red);
     color: #ffffff;
-    width: 20px;
+    max-width: 25px;
+    max-height: 25px;
     padding: 10px;
     text-align: center;
     border-radius: 50%;
+    font-size: .90rem;
+    margin-right: 2%;
+}
+.instructions-step {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
 }
 .left-step {
     display: flex;
