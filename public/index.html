@@ -3,60 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Book</title>
+    <title>Recipe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="recipe-body">
     <header>
-        <div class="container">
-            <h1>Recipe Book</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <nav class="recipe-nav">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>  
 
     <main>
-        <div class="container">
-            <section id="featured-recipe">
-                <h2>Featured Recipe</h2>
-                <article>
-                    <h3>Recipe Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec nunc tincidunt aliquam. Nullam nec purus nec nunc tincidunt aliquam. Nullam nec purus nec nunc tincidunt aliquam. Nullam nec purus nec nunc tincidunt aliquam.</p>
-                    <a href="">Read More</a>
-                </article>
-            </section>
+        <section class="book-cover">
+            <div class="cover-title">
+                <h1>Recipe Book</h1>
+                <p>Find your favorite recipes here</p>
+            </div>
 
-            <section id="all-recipes">
-                <div class="recipe-card">
-                    <img src="" alt="">
-                    <h3>Recipe Title</h3>
-                    <p>description</p>
-                    <a href="">Read More</a>
+            <!-- recipe list scroll-->
+            <section>
+                <div class="review-recipe-container">
+                    <div class="recipe-num">1</div>
+                    <div class="review-img"></div>
+                    <div class="selection-container">
+                        <h2><a href="recipes.html">chocolate chip cookie</a></h2>
+                         <p>description</p>
+                    </div>
                 </div>
-                <div class="recipe-card">
-                    <img src="" alt="">
-                    <h3>Recipe Title</h3>
-                    <p>description</p>
-                    <a href="">Read More</a>
+
+                <div class="review-recipe-container">
+                    <div class="recipe-num">1</div>
+                    <div class="review-img"></div>
+                    <div class="selection-container">
+                        <h2><a href="recipes.html">chocolate chip cookie</a></h2>
+                         <p>description</p>
+                    </div>
                 </div>
-                <div class="recipe-card">
-                    <img src="" alt="">
-                    <h3>Recipe Title</h3>
-                    <p>description</p>
-                    <a href="">Read More</a>
+
+                <div class="review-recipe-container">
+                    <div class="recipe-num">1</div>
+                    <div class="review-img"></div>
+                    <div class="selection-container">
+                        <h2><a href="recipes.html">chocolate chip cookie</a></h2>
+                         <p>description</p>
+                    </div>
+                </div>
+                <div class="review-recipe-container">
+                    <div class="recipe-num">1</div>
+                    <div class="review-img"></div>
+                    <div class="selection-container">
+                        <h2><a href="recipes.html">chocolate chip cookie</a></h2>
+                         <p>description</p>
+                    </div>
                 </div>
             </section>
-        </div>
+        </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Recipe Book</p>
-        </div>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
