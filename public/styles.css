@@ -64,12 +64,20 @@ body {
 .selection-container {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    text-wrap: wrap;
+}
+.recipe-num {
+    margin: .5rem;
 }
 .review-img {
-    width: 150px;
+    max-width: 150px;
+    width: 100%;
     height: 110px;
     background-color: var(--cream);
     border-radius: 8px;
+    margin: 1rem;
 }
 
 a {
@@ -109,7 +117,7 @@ a:hover {
 .book-container {
     width: 80%;
     max-width: 1000px;
-    height: 500px;
+    height: 600px;
     background-color: var(--tan);
     border: 3px solid var(--dark-brown);
     padding: 2rem;
@@ -122,12 +130,12 @@ a:hover {
 }
 
 .book-pages {
-    width: 45%;
+    width: 50%;
     background: linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);
     box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
     padding: 1.5rem 1rem;
     border: 2px solid black;
-    height: 90%;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: smooth;
