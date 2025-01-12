@@ -189,25 +189,28 @@ a:hover {
 .right-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .step-number {
     background-color: var(--red);
     color: #ffffff;
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 35px;
+    max-height: 35px;
     padding: 10px;
-    text-align: center;
     border-radius: 50%;
+}
+.step-number span {
+    padding: 3%;
+    align-self: center;
     font-size: .90rem;
-    margin-right: 2%;
 }
 .instructions-step {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 20px;
+    gap: 3%;
+    align-items: center;
 }
 .left-step {
     display: flex;

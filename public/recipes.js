@@ -104,7 +104,7 @@ function renderInstructions(recipe) {
 
             const stepNumber = document.createElement('div');
             stepNumber.classList.add('step-number');
-            stepNumber.textContent = `Step ${step.step_number}`;
+            stepNumber.innerHTML = `<span>${step.step_number}</span>`;
             instructionStep.appendChild(stepNumber);
 
             const p = document.createElement('p');
